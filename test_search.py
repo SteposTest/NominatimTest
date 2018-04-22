@@ -64,7 +64,7 @@ def save_value(result, row, col):
     wb.save(data_file)
 
 
-def str_to_int_coordinates(coordinates):
+def str_to_float_coordinates(coordinates):
     return [float(i) for i in coordinates]
 
 
